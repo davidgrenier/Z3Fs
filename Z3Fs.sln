@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Z3Fs", "Z3Fs\Z3Fs.fsproj", "{F21BFF7B-A345-45A1-99F6-DF78883877BD}"
-EndProject
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{185EE158-80EF-4359-89D7-833DAB6E9208}"
 	ProjectSection(SolutionItems) = preProject
 		Examples\Arithmetic.fsx = Examples\Arithmetic.fsx
@@ -17,6 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{18
 		Examples\Simple.fsx = Examples\Simple.fsx
 		Examples\Solver.fsx = Examples\Solver.fsx
 		Examples\Sudoku.fsx = Examples\Sudoku.fsx
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Z3Fs", "Z3Fs\Z3Fs.fsproj", "{F21BFF7B-A345-45A1-99F6-DF78883877BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModelBuilding", "ModelBuilding", "{5A8ECEA3-5EDA-4B6A-9F9B-917F67D2431B}"
+	ProjectSection(SolutionItems) = preProject
+		ModelBuilding\Intro.fsx = ModelBuilding\Intro.fsx
 	EndProjectSection
 EndProject
 Global
